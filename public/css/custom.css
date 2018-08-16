@@ -1,0 +1,30 @@
+@font-face {
+    src: '/fonts/proxima-nova-regular.otf';
+    font-family: 'Proxima Nova';
+}
+body {
+    font-family: 'Proxima Nova';
+}
+.text-dim { 
+    color: #a7a7a7;
+}
+.settings-sidebar { 
+   margin-top: 10px;
+}
+.settings-sidebar li { 
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.settings-sidebar li a {
+    color: #000;
+}
+.settings-sidebar li a:hover {
+    text-decoration: none;
+}
+.settings-sidebar li i { 
+    color: #a7a7a7;
+}
+.settings-sidebar li .title { 
+    margin-left:5px;
+}
